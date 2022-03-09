@@ -11,7 +11,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <th>Autor</th>
             <th>Precio</th>
         </tr>
-        <xsl:for-each select="Líbreria/Libro[autor='JK Rowling']">
+        <xsl:for-each select="Librería/Libro[Autor='JK Rowling']">
         <xsl:sort select="Precio" data-type="number"/>
         <tr>
             <td><xsl:value-of select="Autor"/></td>
