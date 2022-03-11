@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="Librería5.3.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Librería5.5.xsl"?>
 <Librería>
     <Libro>
         <Título>Harry Potter y la piedra filosofal</Título>
         <Autor>JK Rowling</Autor>
         <ISBN>8478884459</ISBN>
         <Editorial>Salamandra</Editorial>
-        <Precio>7€</Precio>
+        <Precio>12</Precio>
         <NumPag>378</NumPag>
     </Libro>
     <Libro>
@@ -14,7 +14,7 @@
         <Autor>JK Rowling</Autor>
         <ISBN>8478884451</ISBN>
         <Editorial>Salamandra</Editorial>
-        <Precio>8</Precio>
+        <Precio>20</Precio>
         <NumPag>324</NumPag>
     </Libro>
     <Libro>
