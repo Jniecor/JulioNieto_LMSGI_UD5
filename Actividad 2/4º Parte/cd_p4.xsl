@@ -3,7 +3,7 @@
 <xsl:template match="/">
     <html>
     <body>
-    <h1>Recopilacion de discos</h1>
+    <h1>Biblioteca personal de Julio</h1>
         <table border="1">
         <tr bgcolor="#FF0000">
             <th>Canciones</th>
@@ -12,7 +12,7 @@
         <tr>
             <td>
                 <xsl:for-each select="cancion">
-                    <xsl:if test="@tiempo &lt; 260">
+                    <xsl:if test="@tiempo &lt; 220">
                     <xsl:value-of select="."/>
                     <br/>
                     </xsl:if>

@@ -4,7 +4,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
     <html>
     <body>
-    <h1>Recopilacion de discos</h1>
+    <h1>Biblioteca personal de Julio</h1>
         <table border="1">
         <tr bgcolor="FF0000">
             <th>Artista</th>
