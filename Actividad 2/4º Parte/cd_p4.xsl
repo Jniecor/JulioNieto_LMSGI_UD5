@@ -6,10 +6,18 @@
     <h1>Biblioteca personal de Julio</h1>
         <table border="1">
         <tr bgcolor="#FF0000">
+            <th>Título</th>
+            <th>Artista</th>
+            <th>Año</th>
+            <th>Sello</th>
             <th>Canciones</th>
         </tr>
         <xsl:for-each select="cdteca/cd">
         <tr>
+            <td><xsl:value-of select="titulo"/></td>
+            <td><xsl:value-of select="artista"/></td>
+            <td><xsl:value-of select="sello"/></td>
+            <td><xsl:value-of select="año"/></td>
             <td>
                 <xsl:for-each select="cancion">
                     <xsl:if test="@tiempo &lt; 220">
