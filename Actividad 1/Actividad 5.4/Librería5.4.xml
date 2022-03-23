@@ -6,7 +6,7 @@
         <Autor>JK Rowling</Autor>
         <ISBN>8478884459</ISBN>
         <Editorial>Salamandra</Editorial>
-        <Precio>12</Precio>
+        <Precio>7</Precio>
         <NumPag>378</NumPag>
     </Libro>
     <Libro>
@@ -14,7 +14,7 @@
         <Autor>JK Rowling</Autor>
         <ISBN>8478884451</ISBN>
         <Editorial>Salamandra</Editorial>
-        <Precio>20</Precio>
+        <Precio>8</Precio>
         <NumPag>324</NumPag>
     </Libro>
     <Libro>
